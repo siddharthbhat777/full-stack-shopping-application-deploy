@@ -1,0 +1,187 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: #B3E0FF;
+  align-items: center;
+  justify-content: center;
+}
+
+.shoppingImage {
+  text-align: start;
+  margin-left: -100px;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.loginWrapper {
+  margin-left: -200px;
+  width: 70%;
+  height: 70%;
+  display: flex;
+}
+
+.loginLeft,
+.loginRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.loginLogo {
+  font-size: 50px;
+  font-weight: 800;
+  color: #042652;
+  margin-left: 150px;
+  margin-bottom: 10px;
+}
+
+.loginText {
+  font-size: xx-large;
+  margin-top: -40px;
+  text-shadow: 2px 2px 3px #042652;
+  font-weight: 600;
+  background: -webkit-linear-gradient(#7979f0, #685fa0);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.loginDesc {
+  font-size: 32px;
+  margin-bottom: -10px;
+  margin-left: -100px;
+}
+
+.loginBox {
+  height: 400px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+
+.loginInput1 {
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-size: 18px;
+  padding-left: 20px;
+  margin-top: -120px;
+}
+
+.loginInput2 {
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+
+input::placeholder {
+  color: rgb(53, 53, 53);
+}
+
+input:focus::placeholder {
+  color: gray;
+}
+
+.loginInput1:focus,
+.loginInput2:focus {
+  height: 50px;
+  border-radius: 10px;
+  font-size: 18px;
+  padding-left: 20px;
+  border: 2px solid black;
+}
+
+.loginInput1:focus,
+.loginInput2:focus {
+  outline: none;
+}
+
+.loginButton {
+  height: 50px;
+  width: 70%;
+  align-self: center;
+  border-radius: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px grey;
+  transition: all .5s ease-in-out;
+}
+
+.loginButton:active {
+  box-shadow: 2px 2px 4px black;
+  transition-duration: 0.2s;
+  transform: translateX(0px) translateY(2px);
+}
+
+.loginButton:hover {
+  background-color: #B3E0FF;
+  border: 2px solid #000065;
+  background-size: cover;
+  color: black;
+  transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1);
+}
+
+.loginButton:active {
+  transition-duration: 0.2s;
+  transform: translateX(0px) translateY(2px);
+}
+
+.loginButton:focus {
+  outline: none;
+}
+
+.loginButton:disabled {
+  cursor: not-allowed;
+}
+
+.loginRegisterButton {
+  width: 60%;
+  align-self: center;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: transparent;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  border: 2px solid black;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px grey;
+  transition: all .5s ease-in-out;
+}
+
+.loginRegisterButton:active {
+  box-shadow: 2px 2px 4px black;
+  transition-duration: 0.2s;
+  transform: translateX(0px) translateY(2px);
+}
+
+.loginRegisterButton:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1);
+}

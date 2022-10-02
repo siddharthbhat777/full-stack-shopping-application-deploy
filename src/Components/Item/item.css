@@ -1,0 +1,83 @@
+.card {
+    box-shadow: 2px 2px 4px rgb(170, 170, 170);
+    height: 280px;
+    width: 200px;
+    margin: 10px;
+    position: relative;
+    border-radius: 10px;
+    border: double 2px transparent;
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    background-color: #dcdcdc;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.image-preview {
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1.0) 70%, transparent 100%);
+    object-fit: cover;
+}
+
+
+.heading {
+    margin-top: -2px;
+    text-align: start;
+    margin-left: 10px;
+    font-size: larger;
+    font-family: "Bahnschrift", Times, serif;
+    font-weight: 700;
+    line-height: 1.5em;
+    height: 3em;
+    overflow: hidden;
+}
+
+.brandDisplay {
+    font-size: large;
+    color: #c7841f;
+    text-align: start;
+    margin-left: 10px;
+    margin-top: -10px;
+    font-family: "Bahnschrift", Times, serif;
+    font-weight: 400;
+}
+
+.oos {
+    font-size: x-small;
+    border: 2px solid red;
+    border-radius: 20px;
+    width: 70px;
+    height: 15px;
+    padding: 2px;
+    color: red;
+    margin-left: 122px;
+    margin-top: 22px;
+}
+
+.is {
+    font-size: x-small;
+    border: 2px solid #92e569;
+    border-radius: 20px;
+    width: 70px;
+    height: 15px;
+    padding: 2px;
+    color: #92e569;
+    margin-left: 122px;
+    margin-top: 22px;
+}
+
+.price {
+    margin-top: -50px;
+    text-align: start;
+    margin-left: 10px;
+    font-size: larger;
+    color: green;
+    font-family: "Bahnschrift", Times, serif;
+    font-weight: 400;
+}
