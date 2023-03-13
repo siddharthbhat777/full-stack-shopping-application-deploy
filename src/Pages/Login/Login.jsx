@@ -7,8 +7,10 @@ import { signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../../firebase-config';
 import { useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
+import useDocumentTitle from '../../Utils/useDocumentTitle';
 
 const Login = () => {
+  useDocumentTitle("Login User");
 
   const [loginEmail, setLoginEmail] = useState("");
   const [loginPassword, setLoginPassword] = useState("");

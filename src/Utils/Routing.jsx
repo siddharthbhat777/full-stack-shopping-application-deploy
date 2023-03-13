@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import Register from '../../Pages/Register/Register';
-import Login from '../../Pages/Login/Login';
-import Home from '../../Pages/Home/Home';
+import Register from '../Pages/Register/Register';
+import Login from '../Pages/Login/Login';
+import Home from '../Pages/Home/Home';
 import {
     BrowserRouter as Router,
     Routes,
     Route
 } from 'react-router-dom';
-import { auth } from '../../firebase-config';
+import { auth } from '../firebase-config';
 import { onAuthStateChanged } from 'firebase/auth';
 
 const Routing = () => {

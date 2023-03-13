@@ -13,9 +13,12 @@ import ViewItem from '../../Components/ViewItem/ViewItem';
 import { Logout } from '@mui/icons-material';
 import shoppingImg from '../../Images/poster-img.png';
 import { AnimatePresence } from 'framer-motion';
+import useDocumentTitle from '../../Utils/useDocumentTitle';
+
 
 const Home = () => {
-
+    useDocumentTitle("Home");
+    
     const [items, setItems] = useState([]);
     const [itemsForCategory, setItemsForCategory] = useState(items);
     const [user, setUser] = useState({});

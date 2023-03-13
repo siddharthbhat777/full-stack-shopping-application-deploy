@@ -7,8 +7,10 @@ import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../../firebase-config';
 import { useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
+import useDocumentTitle from '../../Utils/useDocumentTitle';
 
 const Register = () => {
+  useDocumentTitle("Register User");
 
   const [registerEmail, setRegisterEmail] = useState("");
   const [registerPassword, setRegisterPassword] = useState("");
